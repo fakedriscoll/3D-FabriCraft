@@ -1,0 +1,92 @@
+/* Estilos para o formulário de cartão de crédito */
+.card-form-fallback {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.card-form-fallback h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.payment-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.payment-processing {
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+.payment-processing i {
+    font-size: 24px;
+    color: #0066cc;
+    margin-right: 10px;
+}
+
+.payment-success {
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #f0fff0;
+    border-radius: 8px;
+}
+
+.payment-success i {
+    font-size: 48px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.payment-success h3 {
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.payment-success p {
+    margin-bottom: 15px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
